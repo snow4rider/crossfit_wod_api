@@ -3,7 +3,7 @@ const workoutController = require("../../controllers/workoutController");
 
 const router = express.Router();
 
-router.get("/",workoutController.getAllWorkouts);
+router.get("/", workoutController.getAllWorkouts);
 
 router.get("/:workoutId", workoutController.getOneWorkout);
 
